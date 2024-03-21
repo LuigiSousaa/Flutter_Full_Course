@@ -2,10 +2,7 @@
 // ignore: unnecessary_import
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:flutter/services.dart';
-=======
->>>>>>> a5dc7d7cf319dedbfb1b9ec923b6e227e4a7d6b8
 import 'package:flutter/widgets.dart';
 
 void main() => runApp(MaterialApp(
@@ -16,13 +13,9 @@ void main() => runApp(MaterialApp(
 class MyApp5 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
     return Scaffold(
       resizeToAvoidBottomInset: false,
-=======
-    return Scaffold(
->>>>>>> a5dc7d7cf319dedbfb1b9ec923b6e227e4a7d6b8
       body: Container(
         // A linha abaixo diz que o widget se auto ajustrá para ocupar todo o espaço disponível na horizontal
         width: double.infinity,
@@ -147,16 +140,14 @@ class MyApp5 extends StatelessWidget {
                       height: 40,
                     ),
                     Container(
-<<<<<<< HEAD
-=======
                       height: 50,
-                      margin: EdgeInsets.symmetric(horizontal: BorderSide.strokeAlignCenter),
->>>>>>> a5dc7d7cf319dedbfb1b9ec923b6e227e4a7d6b8
+                      margin: EdgeInsets.symmetric(horizontal: 20),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(50),
                           color: Colors.orange[900]),
                       child: Center(
                         child: Text(
+                          showDialog(context: context, )
                           "Submter",
                           style: TextStyle(
                               color: Colors.white,
