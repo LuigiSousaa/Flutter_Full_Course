@@ -1,0 +1,1 @@
+ C:\\Users\\DevTardeB\\Documents\\Flutter\\todo_mercado\\.dart_tool\\flutter_build\\46f3a2b0bc4c5749b8ef0c58e15b52d6\\native_assets.yaml: 
