@@ -164,8 +164,8 @@ class MyApp5 extends StatelessWidget {
             gradient: LinearGradient(begin: Alignment.topRight, colors: [
               // Quando insiro '!' estou afirmando que aquele valor não é nulo
               Colors.orange[900]!,
-              Colors.orange[700]!,
-              Colors.orange[500]!
+              Colors.orange[600]!,
+              Colors.orange[400]!
             ])),
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -273,6 +273,7 @@ class MyApp5 extends StatelessWidget {
                               ),
                             ],
                           ),
+
                         ),
                         const SizedBox(
                           height: 40,
